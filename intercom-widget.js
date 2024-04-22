@@ -6,7 +6,7 @@ window.intercomSettings = {
   email: "john@example.com",
   created_at: 1631755238,
 };
-(function () {
+
   var w = window;
   var ic = w.Intercom;
   if (typeof ic === "function") {
@@ -38,4 +38,4 @@ window.intercomSettings = {
       w.addEventListener("load", l, false);
     }
   }
-})();
+
